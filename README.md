@@ -27,4 +27,5 @@ Záznamy jsou řazené podle čísla úlohy.
 | # | Název | Složka | Technika | Složitost | Status | Poznámka |
 |---:|------|--------|----------|-----------|--------|----------|
 | 1 | Two Sum | `1-two-sum/` | Hash map (doplněk), brute force | O(n) / O(n²) | done | 2 řešení: (1) dvojitý loop; (2) průchod polem + mapa `hodnota → index` pro rychlé ověření, zda existuje doplněk `target - num`. |
+| 2 | Add Two Numbers | `2-add-two-numbers/` | Linked list, dummy head, carry | O(max(m,n)) / O(max(m,n)) | done | Sčítání po cifrách v reverse pořadí, průchod oběma listy + přenos `carry`; stavba výsledku přes „dummy head“ uzel. |
 
