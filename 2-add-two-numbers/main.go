@@ -51,7 +51,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	// l1 is a pointer to the first node of the first linked list, l2 is a pointer to the first node of the second linked list.
 	// what we will do is move the pointer to its child until there are child nodes available
 
-	// this means: we will loop while l1 is not nill or l2 is not nil or carry is not 0
+	// this means: we will loop while l1 is not nil or l2 is not nil or carry is not 0
 	// so if l1 is nil, but l2 is not nil (different lengths of linked lists) or if there is a carry from the previous addition, we will continue the loop
 
 	// the loop will end only when both linked list pointers are nil and there is no carry left to add
